@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/panupong25509/go-structure/actions/repositories"
+	"dome.cloud/secureapi/actions/repositories"
 )
 
 func GetUser(c echo.Context) error {

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/panupong25509/go-structure/routes"
+import "dome.cloud/secureapi/routes"
 
 func main() {
 	e := routes.Init()

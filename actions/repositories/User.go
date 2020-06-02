@@ -2,7 +2,7 @@ package repositories
 
 import (
 	"github.com/labstack/echo"
-	"github.com/panupong25509/go-structure/models"
+	"dome.cloud/secureapi/models"
 )
 
 func GetUser(c echo.Context) (interface{}, error) {
