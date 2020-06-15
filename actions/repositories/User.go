@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"github.com/labstack/echo"
 	"dome.cloud/secureapi/models"
+	"github.com/labstack/echo/v4"
 )
 
 func GetUser(c echo.Context) (interface{}, error) {
