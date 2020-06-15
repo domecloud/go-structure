@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/labstack/echo"
 	"dome.cloud/secureapi/actions/handlers"
+	"github.com/labstack/echo/v4"
 )
 
 func Init() *echo.Echo {
